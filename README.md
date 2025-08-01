@@ -1,6 +1,7 @@
 # Excalidoc
 
 Excalidoc é uma CLI e biblioteca para gerar diagramas no formato Excalidraw a partir de decorators TypeScript em seu projeto.
+**Importante: a versão atual é uma POC**
 
 ---
 
