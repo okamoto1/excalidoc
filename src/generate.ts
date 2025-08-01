@@ -14,7 +14,6 @@ export async function generate(
 ) {
   const filePaths = await fg(inputPattern, { absolute: true });
   for (const file of filePaths) {
-    console.log("Importando:", file);
     await import(file);
   }
 
@@ -22,8 +21,6 @@ export async function generate(
   let x = 100;
   let y = 100;
   const nodeIds = new Map<string, string>();
-
-  console.log(nodeRegistry.values());
 
   for (const {
     target,
