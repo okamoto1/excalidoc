@@ -8,6 +8,10 @@
   "bin": {
     "excalidoc": "./bin/excalidoc.js"
   },
+  "bugs": {
+    "url": "https://github.com/okamoto1/excalidoc/issues"
+  },
+  "homepage": "https://github.com/okamoto1/excalidoc#readme",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
